@@ -18,11 +18,13 @@ def euler(n):
     
     return t_sum
 
-# Reading number of terms to be considered in series
-terms = int(input("Enter number of terms: "))
+def calleuler():
+    print("WARNING: No. of terms involve extreme cpu intensive processing, use with caution!!")
+    # Reading number of terms to be considered in series
+    terms = int(input("Enter number of terms: "))
 
-# Function call
-e = euler(terms)
+    # Function call
+    e = euler(terms)
 
-# Displaying result
-print("e = ", e)
+    # Displaying result
+    print("e = ", e)
